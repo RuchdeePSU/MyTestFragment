@@ -33,7 +33,14 @@ public class MainActivity extends AppCompatActivity {
                 FragmentTransaction f1Transaction = getSupportFragmentManager().beginTransaction();
                 f1Transaction.replace(R.id.fragment_container, f1);
                 f1Transaction.commit();
+                break;
             case R.id.action_fragment2:
+                FragmentTwo f2 = new FragmentTwo();
+                FragmentTransaction f2Transaction = getSupportFragmentManager().beginTransaction();
+                f2Transaction.replace(R.id.fragment_container, f2);
+                f2Transaction.addToBackStack(null);
+                f2Transaction.commit();
+                break;
         }
         return super.onOptionsItemSelected(item);
     }
