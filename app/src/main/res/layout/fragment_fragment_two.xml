@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#bbbb22"
+    android:background="#ffff22"
     tools:context="com.example.ruchee.mytestfragment.FragmentTwo">
 
     <!-- TODO: Update blank fragment layout -->
@@ -12,5 +12,12 @@
         android:text="This is fragment 2."
         android:gravity="center_horizontal|center_vertical"
         android:textSize="24sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close fragment 2"
+        android:layout_gravity="center_horizontal|bottom"
+        android:id="@+id/btn_CloseFragment2" />
 
 </FrameLayout>

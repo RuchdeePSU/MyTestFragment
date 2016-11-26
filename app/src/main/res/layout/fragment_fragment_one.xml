@@ -18,6 +18,6 @@
         android:layout_height="wrap_content"
         android:text="Close fragment 1"
         android:layout_gravity="center_horizontal|bottom"
-        android:id="@+id/btn_CloseFragment" />
+        android:id="@+id/btn_CloseFragment1" />
 
 </FrameLayout>
